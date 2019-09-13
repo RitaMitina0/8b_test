@@ -1,0 +1,41 @@
+.hero__label{
+  position: relative;
+}
+
+.label__img{
+  position: absolute;
+
+
+&--center{
+  z-index: 1;
+  margin-left: 135px;
+}
+
+&--right{
+
+  z-index: 2;
+  margin-left: 260px;
+}
+}
+
+.label__text{
+  position: absolute;
+  z-index: 2;
+  width: 80%;
+  font-size: 13px;
+  transform: rotate(-14deg);
+  left: 14px;
+  text-align: center;
+  top: 50px;
+
+  color: #1c7db6;
+
+  &--color-gray{
+    color: #3c3c3c;
+  }
+
+  &--color-white{
+    color: #fff;
+    top: 65px;
+  }
+}

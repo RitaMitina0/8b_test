@@ -1,0 +1,26 @@
+.hero{
+  background-image: url("/assets/images/hero/bg.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 760px;
+}
+
+.hero__desc__list{
+  display: flex;
+  flex-direction: column;
+}
+
+.hero__desc__item{
+  display: flex;
+  align-items: center;
+  font-family: "Roboto-Regular", Verdana, Tahoma, sans-serif;
+  font-size: 20px;
+  margin-bottom: 25px;
+
+}
+
+.hero__desc__text--color{
+  font-family: "roboto-bold", Verdana, Tahoma, sans-serif;
+  color: #10b18d;
+}

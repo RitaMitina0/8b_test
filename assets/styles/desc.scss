@@ -1,0 +1,26 @@
+
+
+.description{
+  height: 670px;
+  background-color: #efefef;
+}
+.description__bg_wrap{
+  position: relative;
+}
+.description__bg-img{
+  position: absolute;
+    top: 0;
+    // top: -46px;
+    right: -70px;
+}
+
+.desc-img{
+  width: 100%;
+  height: 100%;
+}
+
+.content{
+  position: relative;
+}
+
+
